@@ -20,5 +20,5 @@ document.getElementById("message").innerHTML = message;
 document.getElementById("myButton").addEventListener("click", myFunction);
 
 function myFunction() {
-   console.log("Hello, World!");
+  alert("Hello, World!");
 }
