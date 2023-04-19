@@ -53,5 +53,5 @@ var hugeH1 = document.getElementById("hugeH1");
 hugeH1.addEventListener("click", textColorBlue);
 
 function textColorBlue() {
-  hugeH1.style.color = "red";
+  hugeH1.style.color = "blue";
 }
