@@ -80,3 +80,45 @@ async function handleClick(event) {
 
 // add a click event listener to the button
 button.addEventListener("click", handleClick);
+
+// add a click event listener to the button with id "myButton"
+button.addEventListener("click", myFunction);
+
+
+//my third full javascript code
+var headHarry = document.getElementById("headHarry");
+headHarry.addEventListener("click", textColorRed);
+
+function textColorRed() {
+  headHarry.style.color = "red";
+}
+
+//my fourth full javascript code
+var buttonBob = document.getElementById("buttonBob");
+buttonBob.addEventListener("click", buttonBgRed);
+
+function buttonBgRed() {
+  buttonBob.style.backgroundColor = "red";
+}
+
+//my fifth full javascript code
+var divDave = document.getElementById("divDave");
+divDave.addEventListener("click", divSahdow);
+
+function divSahdow() {
+  divDave.style.boxShadow= "0 0 10px 0 blue";
+  divDave.style.borderRadius = "10px";
+  divDave.style.padding = "10px 10px 10px 10px";
+  divDave.style.transition = " grow-shrink 2s ease-in-out infinite";
+}
+
+var exampleDiv = document.getElementById("example-div");
+exampleDiv.addEventListener("click", toggleAnimation);
+
+function toggleAnimation() {
+  exampleDiv.classList.toggle("animating");
+}
+
+
+
+

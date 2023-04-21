@@ -20855,5 +20855,44 @@ html[dir=rtl] .choices__input {
   display: none !important;
 }
 
+#example-div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation: none;
+}
+
+#example-div.animating {
+  animation: grow-shrink 2s ease-in-out infinite;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+  .shadow {
+  box-shadow: 0 0 10px 0 blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.animate {
+  animation: grow-shrink 2s ease-in-out infinite;
+}
+
+@keyframes grow-shrink {
+  0% transform: scale(1); 
+  50%  transform: scale(1.2); 
+  100%  transform: scale(1);  
+  }
+
+}
+
 /*User CSS*/
 /*# sourceMappingURL=style.css.map */
